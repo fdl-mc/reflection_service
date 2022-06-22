@@ -3,5 +3,6 @@ version: '3.5'
 services:
   api:
     image: fdl-mc/api/reflection
+    restart: always
     ports:
       - 8020:8000
